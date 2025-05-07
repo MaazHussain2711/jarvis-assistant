@@ -23,10 +23,10 @@ git clone https://github.com/MaazHussain2711/jarvis-assistant.git
 2. **Create & activate virtual environment**
 `python -m venv venv`
 
-# Windows
+**Windows**
 `venv\Scripts\activate`
 
-# Linux/macOS
+**Linux/macOS**
 `source venv/bin/activate`
 
 3. Install requirements
@@ -39,34 +39,26 @@ Run the assistant
 `python jarvis.py`
 
 
-🛠️ Tech Stack
-Python 3.11
+## 🛠️ Tech Stack
+- Python 3.11
+- OpenRouter API
+- dotenv
+- requests
 
-OpenRouter API
+## 📚 Roadmap
+- Voice input/output (TTS & STT)
+- GUI (PyQt5 or Tkinter)
+- Local/offline LLM support
+- Plugin system for modular tools
+- Web actions (YouTube search, open browser, etc.)
+- JARVIS Modes (formal, casual, sarcastic...)
 
-dotenv
-
-requests
-
-📚 Roadmap
- Voice input/output (TTS & STT)
-
- GUI (PyQt5 or Tkinter)
-
- Local/offline LLM support
-
- Plugin system for modular tools
-
- Web actions (YouTube search, open browser, etc.)
-
- JARVIS Modes (formal, casual, sarcastic...)
-
-💡 Credits
+## 💡 Credits
 Created with ❤️ by Maaz Hussain
 
-📄 License
+## 📄 License
 This project is open-source under the MIT License.
 
-### ✅ Bonus: Create `requirements.txt`
+## ✅ Bonus: Create `requirements.txt`
 
-In terminal: pip freeze > requirements.txt
+In terminal: `pip freeze > requirements.txt`
